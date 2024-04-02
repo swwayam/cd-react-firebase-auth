@@ -1,6 +1,6 @@
 import React from 'react';
-import { auth, provider } from '../firebaseConfig';
-import {signInWithPopup} from 'firebase/auth'
+// import { auth, provider } from '../firebaseConfig';
+// import {signInWithPopup} from 'firebase/auth'
 import './Login.css';
 
 const Login = () => {

@@ -4,10 +4,9 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import Login from './components/Login';
 import Home from './components/Home';
 function App() {
-  const [user] = useAuthState(auth);
-
   return (
-    user ? <Home /> : <Login />
+    <h1>Welcome to the Firebase Project</h1>
+    // TODO : If user is logged in show home page, else show Login page.
   );
 }
 
